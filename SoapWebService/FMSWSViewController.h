@@ -10,4 +10,9 @@
 
 @interface FMSWSViewController : UIViewController
 
+@property (nonatomic, retain) NSURLConnection *connection;
+@property (nonatomic, retain) NSMutableData *data;
+
+- (void)callWebService;
+
 @end
